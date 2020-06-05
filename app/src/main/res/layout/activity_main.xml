@@ -13,14 +13,12 @@
 
         <Button
             android:id="@+id/myButton"
-            android:layout_width="wrap_content"
+            android:layout_width="121dp"
             android:layout_height="wrap_content"
-            android:text="Show the list"
             android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
             android:onClick="showList"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            />
+            android:paddingRight="0dp"
+            android:text="Show the list" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
